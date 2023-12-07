@@ -1,0 +1,17 @@
+.gearimg {
+  background-image: url("../images/gear.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.geartext {
+  color: white;
+  text-shadow: 1px 1px #222222;
+  position: absolute;
+  top: 60%;
+  right: 10%;
+}

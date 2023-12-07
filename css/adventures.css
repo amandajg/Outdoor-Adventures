@@ -1,0 +1,66 @@
+.hikingimg {
+  background-image: url("../images/hiking.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hikingtext {
+  color: white;
+  text-shadow: 1px 1px #222222;
+  position: absolute;
+  top: 45%;
+  left: 100px;
+}
+
+.adventuresubhead {
+  padding-bottom: 10px;
+}
+
+.adventuresub {
+  text-align: left;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.picturewsub {
+  padding-bottom: 30px;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Teko', sans-serif;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #544c44;
+  background-color: white;
+  border: 1px solid #544c44;
+  font-size: 1.2em;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all .2s linear;
+}
+
+button:hover {
+  background-color: #544c44;
+  color: white;
+  border: 1px solid white;
+}
+
+.testimonials {
+  padding-top: 10px;
+  text-align: center;
+  color: #544c44
+}
+
+.testimonials a {
+  color: #3d342f;
+}
+
+.container {
+  padding-bottom: 40px;
+}

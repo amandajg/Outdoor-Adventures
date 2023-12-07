@@ -1,0 +1,16 @@
+.bgimg {
+  background-image: url("../images/mountain.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blurb {
+  position: absolute;
+  text-shadow: 1px 1px #222222;
+  margin-top: 15%;
+  color: white;
+}
